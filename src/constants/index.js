@@ -346,7 +346,9 @@ const projects = [
     tags: [],
     image: tripguide,
     source_code_link: "",
-  },  
+  }, 
+];
+const projects = [
   {
     name: "Automated PDF OCR & Financial Data Extraction System",
     description: [
@@ -369,6 +371,7 @@ export {
   experiences,
   testimonials,
   projects,
+  projects2,
   frameworks,
   languages,
   cloudcomputing,
