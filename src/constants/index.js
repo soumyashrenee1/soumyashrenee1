@@ -347,6 +347,21 @@ const projects = [
     image: tripguide,
     source_code_link: "",
   },
+  
+  {
+    name: "Automated PDF OCR & Financial Data Extraction System",
+    description: [
+      " Built an end-to-end OCR pipeline to extract financial metrics from annual reports and earnings PDFs.",
+      " Used Tesseract OCR, OpenCV, and Python to clean noisy documents and detect tables with 35% improved accuracy.",
+      " Automated extraction of revenue, EPS, ratios, and market indicators.",
+      " Normalized raw extracted text into structured datasets for analysis and forecasts.",
+      " Integrated results into an Excel + Python analytical model for easy interpretation.",
+      " Reduced manual collection time by 70%, improving data availability for AI models.",
+    ],
+    tags: [],
+    image: ocr,
+    source_code_link: "",
+  },
 ];
 
 export {
