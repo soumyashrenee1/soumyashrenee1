@@ -348,7 +348,7 @@ const projects = [
     source_code_link: "",
   }, 
 ];
-const projects = [
+const projects2 = [
   {
     name: "Automated PDF OCR & Financial Data Extraction System",
     description: [
