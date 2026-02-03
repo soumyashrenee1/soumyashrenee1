@@ -13,3 +13,4 @@ git push origin main
 ## deploy
 
 npm run deploy
+deployed on gh-pages
