@@ -95,6 +95,11 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+            <div className="mt-20 flex flex-wrap gap-7">
+        {projects2.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
+      </div>
       <br/><br/><br/><br/>
             <h2 className={`${styles.sectionHeadText} text-center`}>
         Certifications

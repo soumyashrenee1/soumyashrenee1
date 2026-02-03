@@ -41,6 +41,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  ocr,
   postgres,
 } from "../assets";
 
@@ -346,7 +347,7 @@ const projects = [
     tags: [],
     image: tripguide,
     source_code_link: "",
-  }, 
+  },
 ];
 const projects2 = [
   {
