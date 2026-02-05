@@ -43,6 +43,7 @@ import {
   threejs,
   ocr,
   postgres,
+  agents,
 } from "../assets";
 
 export const navLinks = [
@@ -362,6 +363,19 @@ const projects2 = [
     ],
     tags: [],
     image: ocr,
+    source_code_link: "",
+  },
+  {
+    name: "Multi-agent Trade-Off Negotiator System",
+    description: [
+      " Takes an open-ended decision problem and priorities from the user.",
+      " Dynamically plans options and criteria.",
+      " Runs parallel specialist agents (cost, speed, quality, risk).",
+      " Aggregates weighted outcomes into a final decision.",
+      " Recommends the best option, with a clear explanation of why",
+    ],
+    tags: [],
+    image: agents,
     source_code_link: "",
   },
 ];
