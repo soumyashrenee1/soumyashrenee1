@@ -28,6 +28,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ocr from "./ocr.png";
+import agents from "./agents.png";
 import net from "./tech/net.png";
 import flask from "./tech/flask.png";
 import reactjs from "./tech/react.png";
@@ -104,4 +105,5 @@ export {
   jobit,
   tripguide,
   ocr,
+  agents,
 };
